@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #122e4e;
+    color: white;
+    font-family: 'Signika', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 25px;
+    color: #366fb1;
+}
+
+/* this is the game screen */
+#defaultCanvas0 {
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #0c1f35;
+    border-width: 20px;
+    display: flex;
+    margin: auto;
+
+}
+
+.desc {
+    text-align: left;
+    font-size: 0.9em;
+    padding: 10px 0 25px 0;
+    color: #5394dd;
+    position: absolute;
+    top: 645px;
+    left: 25%;
+    width: 50%;
+}
+
+.bottom {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px 0 25px 0;
+    color: #999999;
+    position: absolute;
+    top: 740px;
+    left: 66%;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #b8b8b8;
+}
+
+.bottom a:hover {
+    color: white;
+}
